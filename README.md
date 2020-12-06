@@ -10,4 +10,7 @@ You can imagine rand() choosing a random point on the line below and the probabl
 
 ```a--b----------c--d- - - - z--```
 
-In this case the likelyhood of 'b' being chosen is far bigger then other characters.
+In this case the likelyhood of 'b' being chosen is far bigger then other characters. Here are a few raw examples:
+```  qbgkapo  rxgmclp  lbpqutk  nkyaaos  uoropyd
+  zupbcfu  gpnypnz  ubjgufg  ganzyou  utzgqyl
+  sccmayh  aqgwdyp  zctpppp  uzurtfy  mpqobdf```
