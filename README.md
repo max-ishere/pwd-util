@@ -10,4 +10,44 @@ You can imagine rand() choosing a random point on the line below and the probabl
 
 ```a--b----------c--d- - - - z--```
 
-In this case the likelyhood of 'b' being chosen is far bigger then other characters.
+In this case the likelyhood of 'b' being chosen is far bigger then other characters. Here are a few raw examples:
+```
+  qbgkapo  rxgmclp  lbpqutk  nkyaaos  uoropyd
+  zupbcfu  gpnypnz  ubjgufg  ganzyou  utzgqyl
+  sccmayh  aqgwdyp  zctpppp  uzurtfy  mpqobdf
+```
+
+# How to build this app (Linux, make, g++)
+First of all download all files and have make and g++ installed.
+Then open forler with the files and type
+```
+$ make
+```
+```$``` indicates that you type it in terminal, no need to type that.
+After make builds succesfully you wil see ```main``` file in your folder. Check by:
+```
+$ ls
+```
+```
+main main.cpp (...other files)
+```
+# Usage
+Run
+```
+$ ./main
+```
+The output can be controlled by
+[str-len] - length of your string, (default 16)
+[lines] - number of lines (1)
+[cols] - number of cols if you want to compact the output (1)
+```
+$ ./main [str-len] [lines] [cols]
+```
+Here is an example:
+```
+$ ./main 7 3 5
+
+  qbgkapo  rxgmclp  lbpqutk  nkyaaos  uoropyd
+  zupbcfu  gpnypnz  ubjgufg  ganzyou  utzgqyl
+  sccmayh  aqgwdyp  zctpppp  uzurtfy  mpqobdf
+```
