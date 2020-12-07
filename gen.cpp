@@ -1,6 +1,7 @@
 #include "gen.h"
 
-vector<int> genPwd(unsigned int length, vector<int> frequency, int total)
+vector<int> genPwd(unsigned int length,
+		   vector<int> frequency, int total)
 {
   vector<int> pwd;
 

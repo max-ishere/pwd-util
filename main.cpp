@@ -11,8 +11,6 @@ using std::cout;
 using std::cin;
 using std::generate;
 
-void init(vector<int> &frequency);
-
 int main(int argc, char *argv[])
 {
   srand(time(NULL));
