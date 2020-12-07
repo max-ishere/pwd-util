@@ -29,7 +29,7 @@ After make builds succesfully you wil see ```main``` file in your folder. Check 
 $ ls
 ```
 ```
-**main** main.cpp (...other files)
+main main.cpp (...other files)
 ```
 # Usage
 Run
